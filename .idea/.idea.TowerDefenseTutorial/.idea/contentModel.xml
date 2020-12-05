@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="EnemyMovement.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
+        <e p="GameOver.cs" t="Include" />
         <e p="LivesUI.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BuildManager.cs" t="Include" />

@@ -32,10 +32,10 @@ public class WaveSpanner : MonoBehaviour
 
     private IEnumerator SpawnWave()
     {
-        Debug.Log("Wave incoming!");
         waveIndex += 1;
+        PlayerStats.Rounds += 1;
 
-        for (int i = 0; i < waveIndex; i++)
+        for (var i = 0; i < waveIndex; i++)
         {
             SpawnEnemy();
             yield return new WaitForSeconds(0.5f);
