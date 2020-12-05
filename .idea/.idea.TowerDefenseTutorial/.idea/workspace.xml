@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af40316c-3819-4f4d-959f-3ee9f6f2bf3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NodeUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NodeUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Node.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,6 @@
         <option value="$PROJECT_DIR$/Assets/Node.cs" />
         <option value="$PROJECT_DIR$/Assets/BuildManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Shop.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Money.cs" />
         <option value="$PROJECT_DIR$/Assets/LivesUI.cs" />
@@ -51,10 +51,11 @@
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" />
         <option value="$PROJECT_DIR$/Assets/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Node.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/NodeUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" />
+        <option value="$PROJECT_DIR$/Assets/NodeUI.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +110,7 @@
       <workItem from="1606653840167" duration="2398000" />
       <workItem from="1606661539305" duration="1378000" />
       <workItem from="1607022954660" duration="3237000" />
-      <workItem from="1607160630049" duration="4594000" />
+      <workItem from="1607160630049" duration="6828000" />
     </task>
     <servers />
   </component>
@@ -158,30 +159,11 @@
       <screen x="-49" y="-1440" width="2560" height="1440" />
     </state>
     <state x="891" y="-965" width="680" height="490" key="find.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607023842205" />
-    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup" timestamp="1607178046300">
+    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup" timestamp="1607181758879">
       <screen x="-49" y="-1440" width="2560" height="1440" />
     </state>
     <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1606662271820" />
     <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1013@-49.-1415.2560.1415" timestamp="1606333604577" />
-    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607178046300" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/BuildManager.cs</url>
-          <line>50</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" initialLine="50">
-            <startOffsets>
-              <option value="1281" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1296" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607181758879" />
   </component>
 </project>
