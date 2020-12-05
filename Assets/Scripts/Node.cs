@@ -32,14 +32,14 @@ public class Node : MonoBehaviour
             return;
         }
         
-        if (!buildmanager.CanBuild)
+        if (turret != null)
         {
+            buildmanager.SelectNode(this);
             return;
         }
         
-        if (turret != null)
+        if (!buildmanager.CanBuild)
         {
-            Debug.Log("There's a turret already. TODO: display on screen");
             return;
         }
 

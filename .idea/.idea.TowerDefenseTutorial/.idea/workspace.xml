@@ -7,12 +7,10 @@
     <list default="true" id="af40316c-3819-4f4d-959f-3ee9f6f2bf3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Node.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +40,21 @@
         <option value="$PROJECT_DIR$/Assets/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Node.cs" />
         <option value="$PROJECT_DIR$/Assets/Money.cs" />
         <option value="$PROJECT_DIR$/Assets/LivesUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" />
         <option value="$PROJECT_DIR$/Assets/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/NodeUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
       </list>
     </option>
   </component>
@@ -87,10 +86,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="763">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="763" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -110,7 +109,7 @@
       <workItem from="1606653840167" duration="2398000" />
       <workItem from="1606661539305" duration="1378000" />
       <workItem from="1607022954660" duration="3237000" />
-      <workItem from="1607160630049" duration="2683000" />
+      <workItem from="1607160630049" duration="4594000" />
     </task>
     <servers />
   </component>
@@ -123,15 +122,66 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="2518" height="547" key="GridCell.Tab.0.bottom" timestamp="1607180507635">
+      <screen x="-49" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="547" key="GridCell.Tab.0.bottom/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607180507635" />
+    <state width="2518" height="547" key="GridCell.Tab.0.center" timestamp="1607180507634">
+      <screen x="-49" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="547" key="GridCell.Tab.0.center/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607180507634" />
+    <state width="2518" height="547" key="GridCell.Tab.0.left" timestamp="1607180507633">
+      <screen x="-49" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="547" key="GridCell.Tab.0.left/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607180507633" />
+    <state width="2518" height="547" key="GridCell.Tab.0.right" timestamp="1607180507635">
+      <screen x="-49" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="547" key="GridCell.Tab.0.right/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607180507635" />
+    <state width="2518" height="547" key="GridCell.Tab.1.bottom" timestamp="1607180565933">
+      <screen x="-49" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="2518" height="547" key="GridCell.Tab.1.bottom/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1607180565933" />
+    <state width="2518" height="547" key="GridCell.Tab.1.center" timestamp="1607180565931">
+      <screen x="-49" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="2518" height="547" key="GridCell.Tab.1.center/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1607180565931" />
+    <state width="2518" height="547" key="GridCell.Tab.1.left" timestamp="1607180565931">
+      <screen x="-49" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="2518" height="547" key="GridCell.Tab.1.left/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1607180565931" />
+    <state width="2518" height="547" key="GridCell.Tab.1.right" timestamp="1607180565932">
+      <screen x="-49" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="2518" height="547" key="GridCell.Tab.1.right/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1607180565932" />
     <state x="891" y="-965" width="680" height="490" key="find.popup" timestamp="1607023842205">
       <screen x="-49" y="-1440" width="2560" height="1440" />
     </state>
     <state x="891" y="-965" width="680" height="490" key="find.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607023842205" />
-    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup" timestamp="1607167983060">
+    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup" timestamp="1607178046300">
       <screen x="-49" y="-1440" width="2560" height="1440" />
     </state>
     <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1606662271820" />
     <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1013@-49.-1415.2560.1415" timestamp="1606333604577" />
-    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607167983060" />
+    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607178046300" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/BuildManager.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" initialLine="50">
+            <startOffsets>
+              <option value="1281" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1296" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
