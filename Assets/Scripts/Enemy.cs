@@ -40,6 +40,8 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         Destroy(Instantiate(deathEffect, transform.position, Quaternion.identity), 5f);
+
+        WaveSpanner.EnemiesAlive--;
         
         PlayerStats.Money += priceValue;
         Destroy(gameObject);

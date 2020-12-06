@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections;
-using System.Globalization;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class WaveSpanner : MonoBehaviour
 {
-    public Transform enemyPrefab;
+    public static int EnemiesAlive = 0;
+    public Wave[] waves;
     public Transform spawnPoint;
 
     public float timeBetweenWaves = 5.5f;
@@ -17,10 +16,16 @@ public class WaveSpanner : MonoBehaviour
     
     private void Update()
     {
+        if (EnemiesAlive > 0)
+        {
+            return;
+        }
+        
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
+            return;
         }
 
         countdown -= Time.deltaTime;
@@ -32,18 +37,28 @@ public class WaveSpanner : MonoBehaviour
 
     private IEnumerator SpawnWave()
     {
-        waveIndex += 1;
         PlayerStats.Rounds += 1;
 
-        for (var i = 0; i < waveIndex; i++)
+        var wave = waves[waveIndex];
+
+        for (var i = 0; i < wave.count; i++)
         {
-            SpawnEnemy();
-            yield return new WaitForSeconds(0.5f);
+            SpawnEnemy(wave.enemy);
+            yield return new WaitForSeconds(1 / wave.rate);
+        }
+
+        waveIndex++;
+
+        if (waveIndex == waves.Length)
+        {
+            Debug.Log("LEVEL WON!");
+            enabled = false;
         }
     }
 
-    private void SpawnEnemy()
+    private void SpawnEnemy(GameObject enemy)
     {
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
+        EnemiesAlive += 1;
     }
 }

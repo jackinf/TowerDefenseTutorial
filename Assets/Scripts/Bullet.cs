@@ -43,7 +43,6 @@ public class Bullet : MonoBehaviour
 
     private void HitTarget()
     {
-        Debug.Log("We hit something");
         var effectInstance = Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(effectInstance, 5f);
 

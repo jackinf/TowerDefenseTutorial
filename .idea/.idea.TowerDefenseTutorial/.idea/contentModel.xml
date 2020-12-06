@@ -25,6 +25,7 @@
           <e p="Shop.cs" t="Include" />
           <e p="Turret.cs" t="Include" />
           <e p="TurretBlueprint.cs" t="Include" />
+          <e p="Wave.cs" t="Include" />
           <e p="WaveSpanner.cs" t="Include" />
           <e p="Waypoints.cs" t="Include" />
         </e>
