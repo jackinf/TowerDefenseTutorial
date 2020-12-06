@@ -42,6 +42,7 @@ public class Enemy : MonoBehaviour
         Destroy(Instantiate(deathEffect, transform.position, Quaternion.identity), 5f);
 
         WaveSpanner.EnemiesAlive--;
+        Debug.Log($"Enemies Left: {WaveSpanner.EnemiesAlive}");
         
         PlayerStats.Money += priceValue;
         Destroy(gameObject);

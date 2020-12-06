@@ -22,7 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af40316c-3819-4f4d-959f-3ee9f6f2bf3f" name="Default Changelist" comment="" />
+    <list default="true" id="af40316c-3819-4f4d-959f-3ee9f6f2bf3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Button.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Button.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelSelector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelSelect.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,12 +79,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Wave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelSelector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" />
       </list>
     </option>
   </component>
@@ -84,6 +96,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34981906" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29995978" />
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -130,7 +143,7 @@
       <workItem from="1606653840167" duration="2398000" />
       <workItem from="1606661539305" duration="1378000" />
       <workItem from="1607022954660" duration="3237000" />
-      <workItem from="1607160630049" duration="14212000" />
+      <workItem from="1607160630049" duration="16497000" />
     </task>
     <servers />
   </component>
@@ -191,10 +204,10 @@
     </state>
     <state x="891" y="-948" width="680" height="490" key="find.popup/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1607267369370" />
     <state x="891" y="-965" width="680" height="490" key="find.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607023842205" />
-    <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup" timestamp="1607268616780">
+    <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup" timestamp="1607271101628">
       <screen x="-49" y="-1415" width="2560" height="1415" />
     </state>
-    <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1607268616780" />
+    <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1607271101628" />
     <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1013@-49.-1415.2560.1415" timestamp="1606333604577" />
     <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607266044160" />
   </component>
