@@ -15,11 +15,23 @@ public class WaveSpanner : MonoBehaviour
     public GameManager gameManager;
 
     public Text waveCountdownText;
-    
+
+    private void Start()
+    {
+        EnemiesAlive = 0;
+    }
+
     private void Update()
     {
         if (EnemiesAlive > 0)
         {
+            return;
+        }
+        
+        if (waveIndex == waves.Length)
+        {
+            gameManager.WinLevel();
+            enabled = false;
             return;
         }
         
@@ -39,13 +51,6 @@ public class WaveSpanner : MonoBehaviour
 
     private IEnumerator SpawnWave()
     {
-        if (waveIndex == waves.Length)
-        {
-            gameManager.WinLevel();
-            enabled = false;
-            yield break;
-        }
-        
         PlayerStats.Rounds += 1;
 
         var wave = waves[waveIndex];
