@@ -2,7 +2,6 @@
 
 public class CameraController : MonoBehaviour
 {
-    private bool doMovement = true;
     private bool mouseEnabled = false;
     
     public float panSpeed = 30f;
@@ -18,17 +17,7 @@ public class CameraController : MonoBehaviour
             enabled = true;
             return;
         }
-        
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            doMovement = !doMovement;
-        }
-        
-        if (!doMovement)
-        {
-            return;
-        }
-        
+
         if (Input.GetKey(KeyCode.W) || mouseEnabled && Input.mousePosition.y >= Screen.height - panBorderThickness)
         {
             transform.Translate(Vector3.forward * (panSpeed * Time.deltaTime), Space.World);

@@ -3,23 +3,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="af40316c-3819-4f4d-959f-3ee9f6f2bf3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefenseTutorial/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameOver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameOver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LivesUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LivesUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LaserImpact.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LaserImpact.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NodeUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NodeUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Node.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TurretBlueprint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +64,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpanner.cs" />
         <option value="$PROJECT_DIR$/Assets/GameOver.cs" />
@@ -65,6 +73,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NodeUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Node.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +129,7 @@
       <workItem from="1606653840167" duration="2398000" />
       <workItem from="1606661539305" duration="1378000" />
       <workItem from="1607022954660" duration="3237000" />
-      <workItem from="1607160630049" duration="7935000" />
+      <workItem from="1607160630049" duration="9021000" />
     </task>
     <servers />
   </component>
@@ -128,6 +138,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -168,11 +189,11 @@
       <screen x="-49" y="-1440" width="2560" height="1440" />
     </state>
     <state x="891" y="-965" width="680" height="490" key="find.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607023842205" />
-    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup" timestamp="1607244497269">
+    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup" timestamp="1607251428329">
       <screen x="-49" y="-1440" width="2560" height="1440" />
     </state>
     <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1010@-49.-1415.2560.1415" timestamp="1606662271820" />
     <state x="894" y="-1092" width="672" height="667" key="search.everywhere.popup/-49.-1415.2560.1415/0.25.1792.1013@-49.-1415.2560.1415" timestamp="1606333604577" />
-    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607244497269" />
+    <state x="894" y="-1111" width="672" height="678" key="search.everywhere.popup/-49.-1440.2560.1440/0.0.1792.1120@-49.-1440.2560.1440" timestamp="1607251428329" />
   </component>
 </project>
